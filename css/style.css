@@ -1,0 +1,51 @@
+/* profile page */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.profile_name {
+    color: #FFF;
+    font-size: 64px;
+    font-family: Kaushan Script;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profile_button {
+    width: 400px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #FCF0F0;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 100px;
+    background: linear-gradient(270deg, #E30983 0%, #FF8542 100%);
+}
+
+@media(max-width:800px) {
+    .profile_name {
+        font-size: 40px;
+    }
+    .profile_button{
+        width: 300px;
+        height: 40px;
+    }
+}
+
+@media(max-width:576px) {
+    .profile_name {
+        font-size: 22px;
+    }
+    .profile_button{
+        width: 200px;
+        height: 40px;
+    }
+}
+
