@@ -1,0 +1,39 @@
+:root {
+  --dark: #21212b;
+  --dark-secondary: #3d4a64;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--dark);
+}
+
+.c-input-border {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px var(--dark-secondary) solid;
+  color: white;
+  padding: 7px 15px;
+  margin: 7px 0;
+}
+
+.c-btn {
+  border-radius: 50px;
+  background-image: linear-gradient(200deg, #e30983, #ff8542);
+  color: white;
+  font-weight: bold;
+  padding: 7px 15px;
+  margin: 7px 0;
+}
+
+.c-line {
+  border: .1rem var(--dark-secondary) solid;
+  margin: 10px 0;
+}

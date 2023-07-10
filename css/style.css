@@ -1,0 +1,7 @@
+.greeting-title {
+  color: var(--white);
+  font-size: 42pt;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
