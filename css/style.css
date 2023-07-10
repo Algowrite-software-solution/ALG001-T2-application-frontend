@@ -1,0 +1,101 @@
+/* signup page css */
+.box{
+    height: 700px;
+}
+.signup_heading{
+    font-family: Lobster Two;
+}
+.signup_btn{
+    width: 300px;
+    padding: 7px;
+    border-radius: 20px;
+    /* background-color: #E30983; */
+    background-image: linear-gradient(#E30983,#FF8542);
+}
+.signup_input{
+    border-color: #3D4A64;
+    width: 400px;
+
+    border-radius: 20px;
+
+}
+/* .signup_input::placeholder{
+    color: grey;
+    translate: 0 -95%;
+    background-color: rgb(27, 26, 26);
+    width: max-content;
+    padding: 0 15px;
+    overflow: visible;
+    
+    
+} */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: gray;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  input[type="text"]:focus::placeholder,
+  input[type="text"]:not(:placeholder-shown)::placeholder {
+    top: -2px;
+    font-size: 12px;
+
+  }
+  
+
+  input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="email"]::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: gray;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  input[type="email"]:focus::placeholder,
+  input[type="email"]:not(:placeholder-shown)::placeholder {
+    top: -2px;
+    font-size: 12px;
+
+  }
+
+  input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="password"]::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: gray;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  input[type="password"]:focus::placeholder,
+  input[type="password"]:not(:placeholder-shown)::placeholder {
+    top: -2px;
+    font-size: 12px;
+
+  }
+
