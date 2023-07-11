@@ -19,38 +19,38 @@
             <div class="row  d-flex justify-content-center  m-0">
                 <div class="box col-8 rounded-5">
                     <div class="row m-0 h-100 d-flex justify-content-center align-content-center">
-                        <div class="signup_heading col-8 text-light text-center fs-2">Instargram pro</div>
+                        <div class="signup_heading col-8 text-light text-center fs-1">Instargram pro</div>
                         <div class="col-8 text-light text-center">Sign up to see photos and videos from your friends.</div>
                         <!-- first button set -->
                         <div class="row m-0 d-flex justify-content-center pt-5 pb-3 gap-3">
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5  text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="text" placeholder="username" name="username">
                             </div>
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5 text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="text" placeholder="Display Name" name="Display Name">
                             </div>
                         </div>
                         <!-- second button set -->
                         <div class="row m-0 d-flex justify-content-center pb-3 gap-3">
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5 text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="email" placeholder="email" name="email">
                             </div>
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5 text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="date" placeholder="Birth Day" name="Birth Day">
                             </div>
                         </div>
                         <!-- third button set -->
                         <div class="row m-0 d-flex justify-content-center pb-3 gap-3">
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5 text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="password" placeholder="password" name="password">
                             </div>
-                            <div class="col-5 text-center">
+                            <div class="col-lg-5 text-center">
                                 <input class="signup_input form-control bg-transparent text-light border-3" type="password" placeholder="confirm password" name="confirm password">
                             </div>
                         </div>
                         <!-- sign up button -->
                         <div class="row d-flex justify-content-center">
-                            <div class="col-4 d-grid py-4">
+                            <div class="col-lg-4  py-4 d-flex justify-content-center">
                                 <input type="submit" class="signup_btn text-light" value="Sign Up">
                             </div>
                         </div>
