@@ -87,10 +87,12 @@ input[type="text"] {
     font-size: 12px;
 
   }
-/* 
+
   @media screen and (max-width: 600px) {
-    .signup_btn{
-      width: 200px;
-      padding: 5px;
+    .signup_input{
+      width: 180px;
   }
-  } */
+  .signup_btn{
+    width: 200px;
+}
+  }

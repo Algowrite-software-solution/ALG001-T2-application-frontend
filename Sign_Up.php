@@ -50,7 +50,7 @@
                         </div>
                         <!-- sign up button -->
                         <div class="row d-flex justify-content-center">
-                            <div class="col-lg-4  py-4 d-flex justify-content-center">
+                            <div class="col-lg-4 d-grid py-4 d-flex justify-content-center">
                                 <input type="submit" class="signup_btn text-light" value="Sign Up">
                             </div>
                         </div>
