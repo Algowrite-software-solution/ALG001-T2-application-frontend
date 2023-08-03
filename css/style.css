@@ -1,52 +1,52 @@
 /* profile page */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .profile_name {
-    color: #FFF;
-    font-size: 64px;
-    font-family: Kaushan Script;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #fff;
+  font-size: 64px;
+  font-family: Kaushan Script;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .profile_button {
-    width: 400px;
+  width: 400px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #fcf0f0;
+  text-align: center;
+  font-size: 18px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 100px;
+  background: linear-gradient(270deg, #e30983 0%, #ff8542 100%);
+}
+
+@media (max-width: 800px) {
+  .profile_name {
+    font-size: 40px;
+  }
+  .profile_button {
+    width: 300px;
     height: 40px;
-    flex-shrink: 0;
-    color: #FCF0F0;
-    text-align: center;
-    font-size: 18px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 100px;
-    background: linear-gradient(270deg, #E30983 0%, #FF8542 100%);
+  }
 }
 
-@media(max-width:800px) {
-    .profile_name {
-        font-size: 40px;
-    }
-    .profile_button{
-        width: 300px;
-        height: 40px;
-    }
-}
-
-@media(max-width:576px) {
-    .profile_name {
-        font-size: 22px;
-    }
-    .profile_button{
-        width: 200px;
-        height: 40px;
-    }
+@media (max-width: 576px) {
+  .profile_name {
+    font-size: 22px;
+  }
+  .profile_button {
+    width: 200px;
+    height: 40px;
+  }
 }
 
 .greeting-title {
@@ -55,4 +55,98 @@ body {
   font-weight: bold;
   font-style: italic;
   font-family: "Times New Roman", Times, serif;
+}
+
+/* signup page css */
+.box {
+  height: 700px;
+}
+.signup_heading {
+  font-family: Lobster Two;
+}
+.signup_btn {
+  width: 500px;
+  padding: 6px;
+  border-radius: 20px;
+  /* background-color: #E30983; */
+  background-image: linear-gradient(to left, #e30983, #ff8542);
+}
+.signup_input {
+  border-color: #3d4a64;
+  border-radius: 20px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 16px;
+}
+
+input[type="text"]::placeholder {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 12px;
+  color: gray;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  position: absolute;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="text"]:not(:placeholder-shown)::placeholder {
+  top: -2px;
+  font-size: 12px;
+}
+
+input[type="email"] {
+  padding: 6px;
+  font-size: 16px;
+}
+
+input[type="email"]::placeholder {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 12px;
+  color: gray;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  position: absolute;
+}
+
+input[type="email"]:focus::placeholder,
+input[type="email"]:not(:placeholder-shown)::placeholder {
+  top: -2px;
+  font-size: 12px;
+}
+
+input[type="password"] {
+  padding: 6px;
+  font-size: 16px;
+}
+
+input[type="password"]::placeholder {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  font-size: 12px;
+  color: gray;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  position: absolute;
+}
+
+input[type="password"]:focus::placeholder,
+input[type="password"]:not(:placeholder-shown)::placeholder {
+  top: -2px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .signup_input {
+    width: 180px;
+  }
+  .signup_btn {
+    width: 200px;
+  }
 }
